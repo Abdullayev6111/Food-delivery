@@ -1,0 +1,57 @@
+.restaurant {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.restaurantTop {
+    width: 100%;
+    height: 60px;
+    padding-top: 56px;
+    padding-left: 20px;
+}
+
+.restaurantTop h1 {
+    font-family: poppins-b;
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+}
+
+.restaurantContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.restaurantCard {
+    width: 220px;
+    height: 260px;
+    margin-top: 40px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.restaurantCard img {
+    width: 100%;
+    height: 230px;
+}
+
+.restCardBottom {
+    background-color: #fc8a06;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.restaurantCard h2 {
+    color: #ffffff;
+    font-family: poppins-b;
+    font-weight: 700;
+    font-size: 18px;
+}

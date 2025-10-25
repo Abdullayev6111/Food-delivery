@@ -1,0 +1,132 @@
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerTop {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+
+.headerTop h1 {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+}
+.headerTop h1 span {
+    font-family: poppins-b;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: underline;
+    color: #fc8a06;
+}
+
+.htRight {
+    display: flex;
+    gap: 70px;
+}
+
+.htRightText {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.htRightText h2 {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.htRightText h3 {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: underline;
+    color: #fc8a06;
+}
+
+.htRightButton {
+    display: flex;
+}
+
+.htRightButton button {
+    height: 100%;
+    padding: 15px 20px;
+    background-color: #028643;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-right: 1px solid #0000001a;
+    cursor: pointer;
+}
+
+.htRightButton button:first-child {
+    border-bottom-left-radius: 12px;
+}
+.htRightButton button:last-child {
+    border-bottom-right-radius: 12px;
+    border: none;
+}
+
+/* Header top end */
+
+/* Header bottom start */
+
+.headerBottom {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hbContent {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hbContent button {
+    width: 230px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #03081f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: poppins-m;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hbContent h2 {
+    font-family: poppins-m;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+.hbContent h2:first-child {
+    width: 125px;
+    height: 45px;
+    border-radius: 110px;
+    background-color: #fc8a06;
+    color: white;
+    text-align: center;
+    line-height: 45px;
+}
