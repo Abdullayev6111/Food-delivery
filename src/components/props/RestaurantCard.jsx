@@ -1,4 +1,4 @@
-import styles from "./Restaurant.module.css";
+import styles from "../Restaurants/Restaurant.module.css";
 function RestaurantCard({ img, title }) {
     return (
         <div className={styles.restaurantCard}>

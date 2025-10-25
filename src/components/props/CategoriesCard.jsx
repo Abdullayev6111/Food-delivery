@@ -1,4 +1,4 @@
-import styles from "./Categories.module.css";
+import styles from "../Categories/Categories.module.css";
 
 function CategoriesCard({ img, name, title }) {
     return (

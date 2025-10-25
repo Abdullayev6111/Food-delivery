@@ -1,4 +1,4 @@
-import styles from "./Order.module.css";
+import styles from "../Order/Order.module.css";
 function OrderCard({ img, shadow, place, location, discount }) {
     return (
         <section className={styles.orderCard}>
