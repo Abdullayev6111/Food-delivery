@@ -1,5 +1,5 @@
 import styles from "./Order.module.css";
-import OrderCard from "./OrderCard.jsx";
+import OrderCard from "../props/OrderCard.jsx";
 import { OrderData } from "../../script.js";
 function Order() {
     return (

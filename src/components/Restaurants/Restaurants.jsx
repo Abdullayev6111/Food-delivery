@@ -1,5 +1,5 @@
 import styles from "./Restaurant.module.css";
-import RestaurantCard from "./RestaurantCard.jsx";
+import RestaurantCard from "../props/RestaurantCard.jsx";
 import { restaurantsData } from "../../script.js";
 function Restaurants() {
     return (

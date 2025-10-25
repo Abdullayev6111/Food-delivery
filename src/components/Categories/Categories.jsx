@@ -1,5 +1,5 @@
 import styles from "./Categories.module.css";
-import CategoriesCard from "./CategoriesCard.jsx";
+import CategoriesCard from "../props/CategoriesCard.jsx";
 import { CategoriesData } from "../../script.js";
 function Categories() {
     return (
